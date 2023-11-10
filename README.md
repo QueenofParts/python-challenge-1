@@ -52,6 +52,7 @@ With many thanks to them for time spent, Farzana and Omar provided the following
     • spotting and correcting errors
 
 ## Websites and other Sorces:
+
 ###Websites:
 
 During the work on this this assignment, my colaborators and I used the following websites for reminders of the syntax and structure of certain commands and clarificatrion regarding the specifics of their use:
@@ -59,6 +60,8 @@ During the work on this this assignment, my colaborators and I used the followin
   • Chat GPT  --   www.chatgpt.com
   
   • GeeksforGeeks  --  www.geeksforgeeks.com
+
+  • Python Principles  --  www.pythonprinciples.com
 
   • Stack Overflow  --  www.stackoverflow.com
   
