@@ -134,7 +134,7 @@ while place_order:
                 # Tell the customer they didn't select a number
                 print("You didn't select a number.")
 
-    while True:
+    while place_order:
     # Ask the customer if they would like to order anything else
         keep_ordering = input("Would you like to keep ordering? (Y)es or (N)o ")
      
@@ -166,7 +166,7 @@ while place_order:
         # Print out the customer's order
         print("This is what we are preparing for you:\n")
 
-        print("Item name                 | Price  | Quantity")0
+        print("Item name                 | Price  | Quantity")
         print("--------------------------|--------|----------")
 
         # 6. Loop through the items in the customer's order
@@ -183,15 +183,12 @@ while place_order:
         item_spaces = " " * num_item_spaces
 
         # 10. Print the item name, price, and quantity
-        print(f"{i}        {item_name}  {price}")
+        print(f"{item_quantity}        {item_name}  {price}")
 
         # 11. Calculate the cost of the order using list comprehension
         total_price = sum([item["Price"] * item["Item quantity"] for item in order_list])
 
         # Multiply the price by quantity for each item in the order list, then sum()
-        total_price = []
         for item in order_list:
-            total_price.append(item["Price"] * item["Item quantity"])
-
-        # and print the prices.
-        print("Your total is ${total_price}")
+            print("Your total is " + str(total_price))
+            print("Thank you for your order!")  
